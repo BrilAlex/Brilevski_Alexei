@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Программа на Python, Часть 1</title>
+</head>
+
+<body>
+    <div id="home">
+        <table width="100%">
+            <col width="90%"/>
+            <col width="10%"/>
+            <tr>
+                <td>
+                    <h1>HOW-TO: Программа на Python, Часть 1</h1>
+                    <ul>
+                        <li><i><a href="" title="Программа на Python — часть 1">Программа на Python — часть 1</a></i></li>
+                        <li><i><a href="python_02_link.html" title="Программа на Python — часть 2">Программа на Python — часть 2</a></i></li>
+                        <li><i><a href="python_03_link.html" title="Программа на Python — часть 3">Программа на Python — часть 3</a></i></li>
+                    </ul>
+                    <h2 id="contents">Содержание</h2>
+                    <h3>HOW-TO: Программа на Python, Часть 1</h3>
+                    <ul>
+                        <li><a href="#part_1">Наша первая программа</a></li>
+                        <li><a href="#part_2">Пример цикла For</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <img src="img/Icon-Python.png" alt="Puthon icon" title="Логотип Python" width="100%"/>
+                </td>
+            </tr>
+        </table>
+        <p>
+            Из множества существующих языков программирования Python — один из самых лёгких в изучении.
+            Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился. Хотя Python входит в
+            состав большинства дистрибутивов Linux, на него часто не обращают внимания при выборе языка
+            для изучения. В этой статье мы рассмотрим создание консольных приложений, а в следующей —
+            программирование графических интерфейсов (<u>GUI</u>). Давайте создадим простую программу прямо
+            сейчас.
+        </p>
+        <a name="part_1"></a>
+        <h2>Наша первая программа</h2>
+        <p><a href="#contents">К содержанию</a></p>
+        <p>Наберём код в текстовом редакторе (например, в <b>gedit</b>). Потом мы разберёмся, что делает каждая строка и пойдём дальше.</p>
+        <p>Введите эти 4 строки:</p>
+        <pre>
+            #!/usr/bin/env python
+            print 'Hello. I am a python program.'
+            name = raw_input("What is your name?")
+            print "Hello there, " + name + "!"
+        </pre>
+        <p>
+            Это всё. Сохраните файл как <b>hello.py</b> в любом месте. Я предлагаю сохранить его в папке
+            <b>python_examples</b> в домашнем каталоге. Этот пример показывает, как просто написать программу на
+            Python. Для запуска программы нужно сделать её файл исполняемым. Для этого введите в терминале
+        </p>
+        <b><i><u><code>chmod +x hello.py</code></u></i></b>
+        <p>в папке, в которой вы сохранили программу. Теперь запустите её.</p>
+        <pre>
+            greg@earth:~/python_examples$ ./hello.py
+            Hello. I am a python program.
+            What is your name? Ferd Burphel
+            Hello there, Ferd Burphel!
+            greg@earth:~/python_examples$
+        </pre>
+        <p>Вот и всё.</p>
+        <a name="part_2"></a>
+        <h2>Пример цикла For</h2>
+        <p><a href="#contents">К содержанию</a></p>
+        <p>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый редактор и наберите следующую программу:</p>
+        <pre>
+            #!/usr/bin/env python
+            for cntr in range(0,10):
+                print cntr
+        </pre>
+        <p>
+            <i>Не забудьте поставить символ табуляции перед строкой «print cntr»</i>. Это важно. В Python для
+            указания на блоки кода используются не круглые «<b>(</b>» и фигурные «<b>{</b>» скобки как в других языках
+            программирования, а отступы.
+        </p>
+    </div>
+    <div>
+        <table width="100%">
+            <tr>
+                <td align="left"><a href=""><img src="img/prev.svg" alt="Вернуться назад" title="Предыдущая статья" width="30px"/></a></td>
+                <td align="center">
+                    <a href="#home">
+                        <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Layer_1">
+                             <title>Наверх</title>
+                             <path id="svg_3" d="m4.0001,13.96925l11.00186,-11.96931l11.00186,11.96931l-5.50093,0l0,12.02691l-11.00186,0l0,-12.02691l-5.50093,0z" stroke="#000" fill="#0000ff"/>
+                            </g>
+                        </svg>
+                    </a>
+                </td>
+                <td align="right"><a href="python_02_link.html"><img src="img/next.svg" alt="Перейти вперед" title="Следующая статья" width="30px"/></a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
