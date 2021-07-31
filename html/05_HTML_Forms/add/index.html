@@ -82,7 +82,7 @@
             <fieldset>
                 <legend>Координаты</legend>
                 <input name="email" type="email" pattern="(\w+)@([a-z]+)\.([a-z]{2,6})" placeholder="Введите адрес почты"/><br/>
-                <input name="site" type="url" pattern="(http:\/\/|https:\/\/|ftp:\/\/)((www\.[a-z]+)|([a-z]+)|([а-я]+))\.([a-z]{2,6}|[а-я]{2,6})" placeholder="Введите адрес сайта"/>
+                <input name="site" type="url" pattern="^(http:\/\/|https:\/\/|ftp:\/\/)((www\.[a-z0-9]+|[a-z0-9]+)\.([a-z]{2,6})|([а-я]+)\.([а-я]{2,6}))$" placeholder="Введите адрес сайта"/>
             </fieldset>
             <fieldset>
                 <legend>Цифры</legend>
