@@ -1,0 +1,68 @@
+.variant {width: 80%; margin-bottom: 30px;}
+
+.one-framed-div-single-bg-property {
+    padding: 35px;
+    background:
+        url("../img/t-l.gif") left top no-repeat,
+        url("../img/t-r.gif") right top no-repeat,
+        url("../img/b-r.gif") right bottom no-repeat,
+        url("../img/b-l.gif") left bottom no-repeat,
+        url("../img/l.gif") left repeat-y,
+        url("../img/t.gif") top repeat-x,
+        url("../img/r.gif") right repeat-y,
+        url("../img/b.gif") bottom repeat-x;
+    background-color: #ccc;
+}
+
+.one-framed-div-multi-bg-property {
+    padding: 35px;
+    background-image:
+        url("../img/t-l.gif"),
+        url("../img/t-r.gif"),
+        url("../img/b-r.gif"),
+        url("../img/b-l.gif"),
+        url("../img/l.gif"),
+        url("../img/t.gif"),
+        url("../img/r.gif"),
+        url("../img/b.gif");
+    background-position: 
+        left top,
+        right top,
+        right bottom,
+        left bottom,
+        left,
+        top,
+        right,
+        bottom;
+    background-repeat:
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        repeat-y,
+        repeat-x,
+        repeat-y,
+        repeat-x;
+    background-color: #ccc;
+}
+
+.nine-divs-frame.l {background: url("../img/l.gif") left repeat-y; background-color: #ccc;}
+.nine-divs-frame .t {background: url("../img/t.gif") top repeat-x;}
+.nine-divs-frame .r {background: url("../img/r.gif") right repeat-y;}
+.nine-divs-frame .b {background: url("../img/b.gif") bottom repeat-x;}
+.nine-divs-frame .l-t {background: url("../img/t-l.gif") left top no-repeat;}
+.nine-divs-frame .r-t {background: url("../img/t-r.gif") right top no-repeat;}
+.nine-divs-frame .r-b {background: url("../img/b-r.gif") right bottom no-repeat;}
+.nine-divs-frame .l-b {background: url("../img/b-l.gif") left bottom no-repeat;}
+.nine-divs-frame .text {padding: 35px;}
+
+.border-image-frame {
+    padding: 10px;
+    background-color: #ccc;
+    border-style:solid;
+    border-width: 25px;
+    border-image-source: url('../img/frame.png');
+    border-image-slice: 75;
+    border-image-repeat: stretch;
+    border-image-width: 3;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02. CSS - Список и контейнер с кодом</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="ordered-list-block">
+            <ol>
+                <li>
+                    <span>Контейнер с кодом</span>
+                    <ol>
+                        <li>Цвет фона: черный</li>
+                        <li>Цвет текста: зеленый</li>
+                        <li>Ширина: 400px</li>
+                        <li>Максимальная высота контейнера: 4-е строки</li>
+                        <li>Переполнение: автоматическое</li>
+                    </ol>
+                </li>
+                <li>
+                    <span>Список</span>
+                    <ol>
+                        <li>Ширина: 350px</li>
+                        <li>Тип списка: римские цифры</li>
+                        <li>Тип вложенного списка: римские нижний регистр цифры</li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <div class="code-block">
+            <pre>
+                #!/usr/bin/env python
+                print 'Hello. I am a python program.'
+                name = raw_input("What is your name?")
+                print "Hello there, " + name + "!"
+            </pre>
+        </div> 
+    </div>
+</body>
+</html>

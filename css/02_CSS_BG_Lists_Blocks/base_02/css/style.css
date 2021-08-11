@@ -1,0 +1,4 @@
+.ordered-list-block ol {width: 350px; list-style: upper-roman;}
+.ordered-list-block ol ol {list-style: lower-roman;}
+
+.code-block pre {width: 400px; max-height: 4em; overflow: auto; white-space: pre-line; background: #000; color: green;}

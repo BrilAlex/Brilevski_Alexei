@@ -1,0 +1,7 @@
+.container {max-width: 800px; margin: 0 auto; padding: 10px; background: #eee;}
+.navigation {float: left; width: 15em; padding: 5px 0; background: #ccc;}
+.content {float: left; width: 70%;}
+.article {margin-bottom: 2em; padding: 5px 0; background: #aaa;}
+.mail-icon {float: right; width: 128px;}
+.clearfix {clear: both;}
+.footer {clear: both; background: #ccc;}

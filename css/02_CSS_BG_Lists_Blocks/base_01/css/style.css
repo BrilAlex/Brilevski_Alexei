@@ -1,0 +1,5 @@
+.container {width: 400px; margin: 0 auto; padding: 30px; background: green;}
+.card {display: inline-block; width: 138px; height: 188px;}
+.three-clubs {margin-left: 40px; background: url("../img/cards.png") -145px -200px no-repeat; transform: rotate(-15deg);}
+.five-hearts {margin-left: -50px; background: url("../img/cards.png") -433px -598px no-repeat; transform: rotate(0.1deg);}
+.nine-diamonds {margin-left: -50px; background: url("../img/cards.png") -289px -1394px no-repeat; transform: rotate(15deg);}
