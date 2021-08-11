@@ -1,14 +1,12 @@
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px;
-    background: #eee;
-}
-.wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #eee;
 }
 .navigation {flex: 0 0 15em; padding: 5px 0; background: #ccc;}
 .content {flex: 1 1 0%;}
@@ -19,5 +17,5 @@
     padding: 5px 0;
     background: #aaa;
 }
-.mail-icon {width: 128px; align-self: flex-end;}
-.footer {background: #ccc;}
+.mail-icon {flex: 0 0 128px; align-self: flex-end;}
+.footer {flex: 0 0 100%; background: #ccc;}
