@@ -1,0 +1,46 @@
+body {box-sizing: border-box;}
+.wrapper::before, .wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.menu, .menu ul {
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    float: left;
+    width: 105px;
+    position: relative;
+}
+.menu li a {
+    display: block;
+    padding: 5px;
+    background: #d3d3d3;
+    color: #808080; text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.menu li a:hover {
+    background: #808080;
+    color: #d3d3d3;
+}
+.menu ul {
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+}
+.menu li ul li {
+    opacity: 0;
+    height: 0;
+    transition: all 0.9s;
+}
+.menu li:hover ul li {
+    opacity: 1;
+    height: 30px;
+}
+
+@media all and (max-width: 750px) {
+    .menu li {float: none;}
+    .menu ul {position: relative; top: 0; left: 10px;}
+}

@@ -1,5 +1,4 @@
 .container {
-    max-width: 800px;
     margin: 0 auto;
     padding: 10px;
     background: #eee;
@@ -11,7 +10,7 @@
     align-items: flex-start;
 }
 .navigation {flex: 0 0 15em; padding: 5px 0; background: #ccc;}
-.content {flex: 1 1 0%;}
+.content {flex: 1 1 0;}
 .article {
     display: flex;
     flex-direction: column;
