@@ -1,0 +1,8 @@
+a[href^="https://"]::before {content: url("../img/extref.png"); margin-right: 3px;}
+p a[href$=".doc"]::after {content: url("../img/logo-doc.jpg"); margin-left: 3px;}
+p a[href$=".pdf"]::after {content: url("../img/logo-pdf.png"); margin-left: 3px;}
+p a[href$=".zip"]::after {content: url("../img/logo-zip.gif"); margin-left: 3px;}
+ul {list-style-image: url("../img/logo-list.jpg");}
+li a[href$=".doc"]:hover::after {content: url("../img/logo-doc.jpg"); margin-left: 3px;}
+li a[href$=".pdf"]:hover::after {content: url("../img/logo-pdf.png"); margin-left: 3px;}
+li a[href$=".zip"]:hover::after {content: url("../img/logo-zip.gif"); margin-left: 3px;}

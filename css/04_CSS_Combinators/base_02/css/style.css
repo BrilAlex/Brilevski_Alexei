@@ -1,0 +1,11 @@
+table {border-collapse: collapse;}
+caption {caption-side: bottom; padding: 5px; text-transform: uppercase;}
+tr {border-bottom: 2px dotted #61575d;}
+tr:nth-child(odd) {background: #ccc;}
+tr:first-child {background: #777;}
+tr:first-child:hover {cursor: pointer;}
+tr:first-child th {color: #fff;}
+tr:not(:first-child) th {text-align: left;}
+tr:not(:first-child):hover {background: #000; color: #fff; cursor: pointer;}
+th, td {padding: 5px; border-right: 2px dotted #61575d;}
+th:last-child, td:last-child {border-right: none;}

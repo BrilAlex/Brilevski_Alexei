@@ -10,8 +10,7 @@
         url("../img/l.gif") left repeat-y,
         url("../img/t.gif") top repeat-x,
         url("../img/r.gif") right repeat-y,
-        url("../img/b.gif") bottom repeat-x;
-    background-color: #ccc;
+        url("../img/b.gif") bottom repeat-x #ccc;
 }
 
 .one-framed-div-multi-bg-property {
@@ -46,7 +45,7 @@
     background-color: #ccc;
 }
 
-.nine-divs-frame.l {background: url("../img/l.gif") left repeat-y; background-color: #ccc;}
+.nine-divs-frame.l {background: url("../img/l.gif") left repeat-y #ccc;}
 .nine-divs-frame .t {background: url("../img/t.gif") top repeat-x;}
 .nine-divs-frame .r {background: url("../img/r.gif") right repeat-y;}
 .nine-divs-frame .b {background: url("../img/b.gif") bottom repeat-x;}
