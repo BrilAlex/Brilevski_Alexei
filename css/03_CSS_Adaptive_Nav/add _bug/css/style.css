@@ -26,19 +26,14 @@ body {box-sizing: border-box;}
     color: #d3d3d3;
 }
 .menu ul {
-    visibility: hidden;
     position: absolute;
     top: 100%;
-    left: 0;
     z-index: 1;
 }
 .menu li ul li {
     opacity: 0;
     height: 0;
     transition: all 0.9s;
-}
-.menu li:hover ul {
-    visibility: visible;
 }
 .menu li:hover ul li {
     opacity: 1;
