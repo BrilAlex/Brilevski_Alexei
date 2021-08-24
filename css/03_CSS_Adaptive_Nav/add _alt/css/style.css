@@ -29,6 +29,7 @@ body {box-sizing: border-box;}
     position: absolute;
     top: 100%;
     z-index: 1;
+    overflow: hidden;
 }
 .menu li ul li {
     opacity: 0;
